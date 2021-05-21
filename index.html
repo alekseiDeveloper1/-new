@@ -1,1 +1,114 @@
-<!DOCTYPE html><html lang="en">  <head>    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <meta name="description" content="">    <meta name="author" content="">    <meta name="keywords" content=".">    <link rel="icon" href="/favicon.ico">    <link rel="canonical" href="<?php $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];echo $url; ?>">    <title>Starter Template for Bootstrap</title>    <!-- Bootstrap core CSS -->    <!-- <link href="css/bootstrap-grid.min.css" rel="stylesheet"> -->    <!-- Custom styles for this template -->    <link href="css/style.min.css" rel="stylesheet">  </head>  <body style="background: url('../img/BG.png') center no-repeat, radial-gradient(circle, #4c5080, #020923 50%, #020923 100%); background-size: 100%">    <div></div>    <header class="header">	<div class="header__menu">    <div class="menu__icon">      <span></span>      <span></span>      <span></span>    </div>    <nav class="menu__body">      <ul class="menu__list">        <li><a href="#" class="menu__link">БИЛЕТЫ И АБОНЕМЕНТЫ</a></li>        <li><a href="#" class="menu__link">Как купить?</a></li>        <li><a href="#" class="menu__link">Правила</a></li>        <li><a href="#" class="menu__link">Возврат билетов</a></li>        <li><a href="#" class="menu__link">Войти</a></li>      </ul>    </nav>  </div></header>    <main class="main">      <div class="main-slider">        <div class="main-slider__wrap">          <div class="element">            <div class="element-box">              <span><div class="element-box__title">Стадион</div></span>              <div class="element-box__date">26 ИЮНЯ</div>              <span><div class="element-box__time">19:00</div></span>              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>            </div>          </div>          <div class="element">            <div class="element-box">              <span><div class="element-box__title">Стадион</div></span>              <div class="element-box__date">26 ИЮНЯ</div>              <span><div class="element-box__time">19:00</div></span>              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>            </div>          </div>          <div class="element">            <div class="element-box">              <span><div class="element-box__title">Стадион</div></span>              <div class="element-box__date">26 ИЮНЯ</div>              <span><div class="element-box__time">19:00</div></span>              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>            </div>          </div>          <div class="element">            <div class="element-box">              <span><div class="element-box__title">Стадион</div></span>              <div class="element-box__date">26 ИЮНЯ</div>              <span><div class="element-box__time">19:00</div></span>              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>            </div>          </div>          <div class="element">            <div class="element-box">              <span><div class="element-box__title">Стадион</div></span>              <div class="element-box__date">26 ИЮНЯ</div>              <span><div class="element-box__time">19:00</div></span>              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>            </div>          </div>        </div>      </div>      <div class="text-left">        <div class='text'>сопертик1</div>        <div class='text'>сопертик2</div>        <div class='text acti'>сопертик3</div>        <div class='text'>сопертик4</div>        <div class='text'>сопертик5</div>        <div class='text'>сопертик6</div>      </div>      <div class="text-right">        <div class='text'>сопертик7</div>        <div class='text'>сопертик8</div>        <div class='text acti'>сопертик9</div>        <div class='text'>сопертик10</div>        <div class='text'>сопертик11</div>        <div class='text'>сопертик12</div>      </div>    </main>    <script src="js/script.min.js"></script>    <script>      const slider = new Slider({        main: '.main-slider',        wrap: '.main-slider__wrap',        textRight: '.text-right',        textLeft: '.text-left'      });      slider.init();    </script>  </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content=".">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="canonical" href="<?php $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+echo $url; ?>">
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap-grid.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body style="background: url('img/BG.png') center no-repeat, radial-gradient(circle, #4c5080, #020923 50%, #020923 100%); background-size: 100%">
+    <div></div>
+    <header class="header">
+	<div class="header__menu">
+    <div class="menu__icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="menu__body">
+      <ul class="menu__list">
+        <li><a href="#" class="menu__link">БИЛЕТЫ И АБОНЕМЕНТЫ</a></li>
+        <li><a href="#" class="menu__link">Как купить?</a></li>
+        <li><a href="#" class="menu__link">Правила</a></li>
+        <li><a href="#" class="menu__link">Возврат билетов</a></li>
+        <li><a href="#" class="menu__link">Войти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="main">
+      <div class="main-slider">
+        <div class="main-slider__wrap">
+          <div class="element">
+            <div class="element-box">
+              <span><div class="element-box__title">Стадион</div></span>
+              <div class="element-box__date">26 ИЮНЯ</div>
+              <span><div class="element-box__time">19:00</div></span>
+              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>
+            </div>
+          </div>
+          <div class="element">
+            <div class="element-box">
+              <span><div class="element-box__title">Стадион</div></span>
+              <div class="element-box__date">26 ИЮНЯ</div>
+              <span><div class="element-box__time">19:00</div></span>
+              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>
+            </div>
+          </div>
+          <div class="element">
+            <div class="element-box">
+              <span><div class="element-box__title">Стадион</div></span>
+              <div class="element-box__date">26 ИЮНЯ</div>
+              <span><div class="element-box__time">19:00</div></span>
+              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>
+            </div>
+          </div>
+          <div class="element">
+            <div class="element-box">
+              <span><div class="element-box__title">Стадион</div></span>
+              <div class="element-box__date">26 ИЮНЯ</div>
+              <span><div class="element-box__time">19:00</div></span>
+              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>
+            </div>
+          </div>
+          <div class="element">
+            <div class="element-box">
+              <span><div class="element-box__title">Стадион</div></span>
+              <div class="element-box__date">26 ИЮНЯ</div>
+              <span><div class="element-box__time">19:00</div></span>
+              <span><div class="element-box__button"><a href="#" class="element-box__link">Купить билет</a></div></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-left">
+        <div class='text'>сопертик1</div>
+        <div class='text'>сопертик2</div>
+        <div class='text acti'>сопертик3</div>
+        <div class='text'>сопертик4</div>
+        <div class='text'>сопертик5</div>
+        <div class='text'>сопертик6</div>
+      </div>
+      <div class="text-right">
+        <div class='text'>сопертик7</div>
+        <div class='text'>сопертик8</div>
+        <div class='text acti'>сопертик9</div>
+        <div class='text'>сопертик10</div>
+        <div class='text'>сопертик11</div>
+        <div class='text'>сопертик12</div>
+      </div>
+    </main>
+    <script src="js/script.min.js"></script>
+    <script>
+      const slider = new Slider({
+        main: '.main-slider',
+        wrap: '.main-slider__wrap',
+        textRight: '.text-right',
+        textLeft: '.text-left'
+      });
+
+      slider.init();
+    </script>
+  </body>
+</html>
